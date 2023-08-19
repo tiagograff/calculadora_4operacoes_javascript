@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root{
+    --primary-color: #252B48;
+    --secondary-color: #445069;
+    --tertiary-color: #5B9A8B;
+    --quarter-color: #F7E987;
+    --white-color: #f1f1f1;
+    --font:'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: var(--font);
+}
+
+.calculator{
+    background-color: var(--secondary-color);
+    text-align: center;
+    width: 70%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+}
+
+.title{
+    color: var(--primary-color);
+}
+
+.screen{
+    border: 1px dashed var(--primary-color);
+    color: var(--white-color);
+    font-size: 12px;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+
+.button{
+    color: var(--white-color);
+    margin: 5px auto;
+    padding: 5px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    border-right: 1px solid var(--white-color);
+    border-bottom: 1px solid var(--white-color);
+    border-radius: 10px;
+}
+
+.button:hover{
+    border-right: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    background-color: var(--tertiary-color);
+}
+
+.button:focus{
+    border-right: 2px solid var(--tertiary-color);
+    border-bottom: 2px solid var(--tertiary-color);
+}
